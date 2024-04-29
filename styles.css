@@ -4,6 +4,12 @@
     }
 }
 
+html {
+    color: #4d4353;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
 #navbar {
     position: fixed;
     min-width: 290px;
