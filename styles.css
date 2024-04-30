@@ -55,3 +55,22 @@ header {
     padding: 20px;
     margin-bottom: 110px;
 }
+
+section {
+    display: block;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
+
+section article {
+    color: #4d4353;
+    margin: 15px;
+    font-size: 0.96em;
+}
+
+article {
+    display: block;
+}
