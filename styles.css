@@ -74,3 +74,11 @@ section article {
 article {
     display: block;
 }
+
+p {
+    display: block;
+}
+
+li {
+    display: block;
+}
