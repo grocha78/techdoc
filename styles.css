@@ -10,6 +10,13 @@ html {
     font-family: 'Open Sans', Arial, sans-serif;
 }
 
+header {
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
 #navbar {
     position: fixed;
     min-width: 290px;
@@ -21,6 +28,27 @@ html {
     border-color: rgba(0, 22, 22, 0.4);
 }
 
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;    
+}
+
+#navbar li {
+    color: #4d4353;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4353;
+    cursor: pointer;
+}
 #main-doc {
     position: absolute;
     margin-left: 310px;
